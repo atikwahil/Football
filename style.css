@@ -1,0 +1,408 @@
+/* =====================
+Assalamualikum, this the the main heading section
+========================*/
+
+body{
+    margin: 0px;
+    padding: 0%;
+
+   font-family: 'Poppins', sans-serif; 
+    }
+
+
+
+header{
+   
+
+min-height: 677px;
+background: linear-gradient(  90deg,  #C41E3A ,#E22748  );
+
+
+}
+
+nav{
+   
+   position: absolute;
+   margin-left:156px;
+   margin-top: 40px;
+   
+}
+
+.navbar{
+    width: 100%;
+}
+
+
+.navbar a{
+
+    font-weight: 300;
+    padding:5px 10px 5px 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:white;
+    font-size:16px;
+    ;
+    
+}
+
+i {
+
+    color:white;
+}
+#button1 {
+
+  padding-right: 15px;  
+  padding-left: 15px;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: black;
+  margin-left: 1450px;
+  margin-top: -25px;
+  
+
+}
+
+
+/* ++++++++++++++++++++
+NAVBAR SECTION COMPLETED
+
++++++++++++++++++++++++*/
+
+
+ .container{
+    position:absolute;
+margin-top: 100px;
+margin-left: 170px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+
+
+.titles h1 {
+ font-size: 64px;
+ line-height: 80px;
+ color: white;
+
+}
+
+.titles a{
+    text-decoration: none;
+    color: white;
+}
+
+#button2 {
+    width: 140px;
+    padding: 10px 5px 10px 25px;
+    background: black;
+    margin-top: -25px;
+  
+  
+  }
+
+
+  .footballer{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+
+  .background{
+    position: relative;
+        width: 388px;
+        height:428px ;
+    }
+
+ .headplayer {
+    Width:556px;
+    Height:438px;
+    z-index: 3; 
+    position:absolute;
+    right: 20px;
+
+}
+
+header:hover .headplayer  {
+
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out ;
+}
+
+
+/* ##########################
+Finishing of header
+#############################*/
+
+
+/* ############################
+STARTING MID
+############################### */
+
+.playerProfile {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 40px;
+    margin-left: 170px;
+
+}
+
+
+
+.details{
+    width: 52%;
+    box-shadow: 5px 5px 70px  gray;
+    padding: 20px;
+    border-radius: 5px;
+  
+
+}
+
+
+.details img{
+    width: 300px;
+height: 256px;
+}
+
+.details:hover{
+
+    transform: scale(1.1) ;
+    transition: transform 1s ease-in-out;
+    color:#0ec06d;
+}
+
+
+/* ##############
+middle part finish
+#################*/
+
+
+summary{
+   
+   margin-top: 60px;
+    min-height: 600px;
+    background: linear-gradient(  90deg,  #C41E3A ,#E22748  );
+    
+    
+    }
+
+    .titles2 {
+        position:absolute;
+        margin-left: 156px;
+        margin-top: 100px;
+    }
+
+
+    .titles2 h1 {
+        font-size: 64px;
+        line-height: 80px;
+        color: white;
+       
+       }
+       
+       .titles2 a{
+           text-decoration: none;
+           color: white;
+       }
+
+
+
+
+.last-background{
+
+    width: 30%;
+    height: 30%;
+    margin-left: 1100px;
+    margin-top: 100px;
+
+}
+
+       .shoe {
+        Width:556px;
+        Height:438px;
+        z-index: 3; 
+        position:absolute;
+       right:200px;
+    margin-top: 110px;
+    
+    }
+
+
+    summary:hover  .shoe{
+        transform: scale(1.2);
+        transition: all 200ms linear;
+    }
+
+
+    /* ############
+
+Logo and icons adding 
+
+    ############## */
+
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+
+
+    .step-2 i {
+color:#CC203E;
+font-size: 2rem;
+margin: 20px;
+    }
+
+
+i:hover {
+
+    color:black;
+    transform: scaleY(1.6);
+    transition: tramsform 200ms ease-in-out;
+}
+
+    .step-3 p{
+
+font-size: 20px;
+    }
+
+
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
+    MEDIA QUERRY  
+    +++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+                        /* MOBILW DEVICE */    
+
+    @media only screen and (max-width:688px){
+
+
+        header{
+            height: 600px;
+        }
+.container {
+    width: 100%;
+    display: flex;
+   
+}
+
+.shop{
+    display: none;
+}
+ 
+nav{
+    display: none;
+}
+
+.titles{
+     
+
+    margin-top: -60px;
+    margin-left: -120px;
+}
+.titles h1 {
+    font-size: 30px;
+    line-height: 40px;
+   
+   }
+ 
+header:hover .headplayer  {
+display: none;
+}
+
+.footballer{
+    display: flex;
+  margin: auto;
+  
+  justify-content: center;
+ 
+  }
+
+  .background{
+  
+        width: 194px;
+        height:214px ;
+        margin-top: 200px;
+        margin-left: -500px;
+
+       
+    }
+
+    .headplayer {
+     
+        Width: 278px;
+        Height:219px;
+      margin-right: 300px;
+      margin-top: 200px;
+    }
+
+
+
+
+    /*   mid */
+
+        .playerProfile {
+            margin-top: 40px;
+           display: flex;
+           flex-wrap: wrap;
+            
+        }
+   
+        .details{
+            width:100%;
+            height: 80%;
+            
+            
+    padding-right: 110px;
+    padding-left: 15px;
+            margin-left: -150px;
+            font-size: 16px;
+          
+        
+        }
+    
+
+
+
+        .titles2 {
+            position:absolute;
+            margin-left: 56px;
+            margin-top: 50px;
+            height: 300px;
+        }
+    
+    
+        .titles2 h1 {
+            font-size: 34px;
+            line-height: 60px;
+            color: white;
+           
+           }
+
+
+
+           /* Tablet device */
+
+
+           @media only screen and ( min-width:688px) and (max-width:992px) {
+               
+
+ 
+nav{
+    display: none;
+}
+
+/* Sir , im putting my effort but 
+
+the code is not working, see ?
+my media querry is not working.
+
+simple, display none is not working .
+
+im submiting it anyways.Thank you for you co-operation
+*/
+           }
